@@ -100,7 +100,7 @@
     "screenshot": {
       "annotate-export-failed": "Nepodařilo se vytvořit anotovaný obrázek",
       "choose-display": "Vyberte displej",
-      "confirm-region": "Enter nebo Space pro zachycení · Esc pro zrušení · označit tažením",
+      "confirm-region": "{copy} pro kopírování · {save} pro uložení · Enter nebo mezerník pro výchozí možnosti · {cancel} pro zrušení · tažením vyberte znovu",
       "confirm-region-space": "{copy} pro kopírování · {save} pro uložení · Enter pro výchozí možnosti · {cancel} pro zrušení · tažením vyberte znovu · podržením mezerníku přesunete",
       "fullscreen": "Celá obrazovka",
       "overlay-alloc-failed": "Nepodařilo se zobrazit překryvnou vrstvu snímku obrazovky (došlo grafické paměti?)",
@@ -844,7 +844,8 @@
         "objects": "Předměty",
         "people": "Lidé",
         "symbols": "Symboly",
-        "travel": "Cestování"
+        "travel": "Cestování",
+        "unicode": "Unicode"
       },
       "recently-used": "Nedávno použité"
     },
@@ -935,7 +936,8 @@
   "notifications": {
     "actions": {
       "fallback": "Akce",
-      "open": "Otevřít"
+      "open": "Otevřít",
+      "show-in-folder": "Zobrazit ve složce"
     },
     "inline-reply": {
       "button": "Odpovědět",
@@ -1182,7 +1184,9 @@
         "unset-placeholder": "Kliknutím přiřadíte…"
       },
       "list": {
-        "add-entry-placeholder": "Přidat položku…"
+        "add-entry": "Přidat položku",
+        "add-entry-placeholder": "Přidat položku…",
+        "drag": "Změnit pořadí"
       },
       "path-browse": {
         "file-title": "Vyberte soubor",
@@ -1639,6 +1643,7 @@
         "window-switcher": "Přepínač oken"
       },
       "layer": {
+        "auto": "Automaticky",
         "follow": "Sledovat",
         "overlay": "Overlay",
         "top": "Top"
@@ -1993,6 +1998,10 @@
         "font-family": {
           "description": "Rodina písma pro rozhraní shellu",
           "label": "Rodina písma"
+        },
+        "font-scale": {
+          "description": "Zvětšit nebo zmenšit veškerý text shellu beze změny ikon a rozestupů",
+          "label": "Měřítko písma"
         },
         "global-shadow-alpha": {
           "description": "Průhlednost globálního stínu povrchu"
@@ -4828,6 +4837,10 @@
         "hide-inactive": {
           "description": "Skrýt neaktivní ikony soukromí a skrýt widget, když nic není aktivní",
           "label": "Skrýt neaktivní"
+        },
+        "hide-label-when-muted": {
+          "description": "Skrýt procento hlasitosti, když je zařízení ztlumené, a ponechat jen ikonu ztlumení",
+          "label": "Skrýt popisek při ztlumení"
         },
         "hide-passive": {
           "description": "Skrýt položky systémové lišty se stavem StatusNotifierItem Passive",

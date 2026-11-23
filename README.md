@@ -1,8 +1,11 @@
 # Noctalia-cs – český překlad noctalie
 
+**Česky** · [English](README.en.md)
+
 Český překlad rozhraní [noctalia](https://github.com/noctalia-dev/noctalia) (shell a panel pro
 niri / Wayland). Oficiální `cs.json` v balíčku je neúplný (u verze 5.6.0 přibližně 2000 ze 3400
-textů). Tento překlad pokrývá skoro všechno a pacman hook ho po každé aktualizaci noctalie vrátí.
+textů). Tento překlad je úplný (3401/3401 u verze 5.6.0) a pacman hook ho po každé aktualizaci
+noctalie vrátí.
 
 ## Rychlé použití
 
@@ -76,3 +79,13 @@ Návratový kód je 1, když něco chybí nebo nesedí zástupné symboly, jinak
 Překlad je určený i pro zaslání do noctalie (pull request na
 [noctalia-dev/noctalia](https://github.com/noctalia-dev/noctalia), soubor `cs.json` mezi
 překlady). Až ho noctalia převezme celý, hook už nebude potřeba.
+
+## Podpora
+
+Pokud se ti překlad hodí, můžeš mi koupit kafe:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q7Z72B5QVS)
+
+## Licence
+
+MIT, viz soubor [`LICENSE`](LICENSE). Noctalia samotná je také pod licencí MIT.
