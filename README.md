@@ -74,5 +74,5 @@ Návratový kód je 1, když něco chybí nebo nesedí zástupné symboly, jinak
 ## Upstream
 
 Překlad je určený i pro zaslání do noctalie (pull request na
-[noctalia-dev/noctalia](https://github.com/noctalia-dev/noctalia), soubor
-`assets/translations/cs.json`). Až ho noctalia převezme celý, hook už nebude potřeba.
+[noctalia-dev/noctalia](https://github.com/noctalia-dev/noctalia), soubor `cs.json` mezi
+překlady). Až ho noctalia převezme celý, hook už nebude potřeba.
